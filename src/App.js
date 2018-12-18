@@ -32,7 +32,7 @@ class Sub extends Component{
 		// 	return(<div>1</div>);
 		// else
 		// 	return(<div>2</div>);
-		return(<div>{this.props.isShow?0:2}</div>)
+		return(<div>{this.props.isShow?1:2}</div>)
 	}
 }
 
